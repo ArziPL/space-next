@@ -1,0 +1,101 @@
+.layout {
+    position:fixed;
+    height: 100%;
+    width: 20%;
+    min-width: 300px;
+    background-color: #171123;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index:99;
+}
+
+/* TITLE BUTTON */
+
+.layout__title {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2em;
+    transition: 0.1s ease-in-out;
+}
+
+.layout__title:hover {
+    font-size:2.5em;
+    cursor: pointer;
+}
+
+.layout__title:active {
+    transform: scale(0.9);
+}
+
+
+
+
+/* ROCKET BUTTON */
+
+.layout__rockets {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s ease-in-out;
+}
+
+.layout__rockets:hover {
+    background-color:#FF160C;
+    font-size:1.5em;
+    cursor: pointer;
+}
+
+.layout__rockets:active{
+    transform: scale(0.9);
+}
+
+
+
+
+
+/* LANDING BUTTON */
+.layout__landing {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s ease-in-out;
+}
+
+.layout__landing:hover {
+    background-color:#0089D3;
+    font-size:1.5em;
+    cursor: pointer;
+}
+
+.layout__landing:active{
+    transform: scale(0.9);
+}
+
+
+@media screen and (max-width:1400px) {
+    .layout {
+        width: 100%;
+        position: static;
+        display: block;
+    }
+    .layout__title {
+        height: 100px;
+    }
+
+    .layout__rockets {
+        height: 100px;
+    }
+
+    .layout__landing {
+        height: 100px;
+    }
+}

@@ -1,0 +1,77 @@
+.pad {
+    width: 100%;
+    min-height: 400px;
+    display:flex;
+    flex-direction: row;
+}
+
+.pad:hover {
+    background-color: #383045;
+}
+
+.pad__main {
+    width: 50%;
+    padding:50px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.pad__mainName {
+    font-size:4em;
+    color:#0089D3;
+}
+
+.pad__mainWiki {
+    color:#0089D3;
+}
+
+.pad__mainWiki:hover {
+    text-decoration: underline;
+}
+
+.pad__mainWiki:active{
+    color:#F1F2F6;
+}
+
+.pad__img{
+    width: 30%;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.pad__desc {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    gap:10px;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:1400px) {
+    .pad {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .pad__main {
+        order:2;
+        padding:10px;
+    }
+    .pad__img{
+        width: 100%;
+        height: 800px;
+        order:1;
+    }
+    .pad__desc {
+        order:3;
+        margin-bottom: 50px;
+        gap:20px;
+        font-size:0.8em;
+    }
+}

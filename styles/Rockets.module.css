@@ -1,0 +1,14 @@
+.rockets {
+    position:absolute;
+    right:0;
+    height: 100%;
+    width: 80%;
+}
+
+@media screen and (max-width:1300px) {
+    .rockets {
+        position:static;
+        right:auto;
+        width: 100%;
+    }
+}
