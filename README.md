@@ -6,7 +6,8 @@ Entry Next.js project, listing rockets and landing pads from SpaceX API. I made 
 ### USED TECHNOLOGIES
 <span>
   <img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>  
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>  
+  <img src="https://img.shields.io/badge/CSS%20Modules-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>  
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>  
 </span>
   
 ### HOW TO
@@ -20,6 +21,9 @@ npm run dev
 ````
 On `localhost:3000` site should be available
 
+### HOST
+
+Hosted on Vercel, default account
 
 ***
 
